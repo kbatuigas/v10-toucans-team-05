@@ -1,14 +1,53 @@
-# v10-toucans-team-05
+# Momentum Clone Project
 
-Momentum Clone| Voyage-10 | https://chingu.io/
+---
 
-## Team Members
+The Momentum clone is a basic frontend webpage that visually looks similar to the [Chrome extension](https://momentumdash.com/).
 
-Vonetta Stevenson
+Visual elements include a personalized greeting, a high-quality photo background, current location and weather display, and a motivational quote.
 
-Kat Batuigas
+Productivity tools include customized links, embedded Google search, customizable "main task," and to-do list.
 
-# Project Info
+Voyage-10 | https://chingu.io/
 
-- Font Styling - Helvetica Neue
-- Background - Unsplash Random Daily Image
+#### Team Members
+
+- Vonetta Stevenson
+- Kat Batuigas
+
+---
+
+### Motivation
+
+Our motivation for picking this specific clone was it challenged us to get detailed with certain things we wanted to learn all while having a very simple UI.
+
+---
+
+### How to run
+
+- `git clone`
+- `npm install`
+- `npm start`
+
+#### Team Members
+
+- Vonetta Stevenson
+- Kat Batuigas
+
+### Things we used in this clone
+
+- **_ReactJS_** - w/ hooks
+- **_Font Family_** - "Neue Haas Grotesk Text Pro",
+  "Helvetica Neue", Helvetica, Arial, sans-serif
+- **_Background Image_**- [Unsplash Random Daily Image](https://source.unsplash.com/)
+- **_Weather_** - [OpenWeather Current Weather Data API](https://openweathermap.org/current)
+- **_CSS_** - Flexbox & Bootstrap 4
+- **_Quotes_** - [Quotes REST API](https://theysaidso.com/api/)
+
+#### Technical Learning
+
+- Using new React functional components along with hooks
+- Layout items with flexbox
+- Using APIs
+- Local Storage
+- Async/await

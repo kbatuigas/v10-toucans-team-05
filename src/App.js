@@ -1,16 +1,20 @@
 import React from "react";
 import "./styling/App.css";
+import TopContainer from "./components/TopContainer";
+import MiddleContainer from "./components/MiddleContainer";
+import Quote from "./components/Quote";
+import Todo from "./components/Todo";
 
-import Greeting from "./components/Greeting";
-import Weather from "./components/Weather";
-
-function App() {
+const App = () => {
   return (
     <div className="app">
-      <Greeting />
-      <Weather />
+      <TopContainer />
+      <MiddleContainer />
+
+      <Quote />
+      <Todo />
     </div>
   );
-}
+};
 
 export default App;

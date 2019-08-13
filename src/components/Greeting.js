@@ -1,8 +1,12 @@
 import React from "react";
 
 const Greeting = () => {
-  //get name
-  let name = prompt("What is your name?");
+  //get name - using local storage
+  let name = localStorage.getItem("name");
+  if (!name || name === "null") {
+    name = prompt("Please enter your name");
+    localStorage.setItem("name", name);
+  }
 
   //get time
   const time = new Date();
@@ -13,7 +17,6 @@ const Greeting = () => {
 
   //get greeting
   const getGreeting = hours => {
-    console.log(hours);
     if (hours < "12") {
       return "morning";
     } else if (hours < "17") {
@@ -26,7 +29,7 @@ const Greeting = () => {
   let greeting = getGreeting(hours);
   return (
     <>
-      <section className="greeting">
+      <section className="greeting white">
         <div>
           <h2>
             {hours}:{minutes}
